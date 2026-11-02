@@ -10,12 +10,12 @@ Message queues enable asynchronous communication between system components by te
 
 ![Components of a messaging queue](MessagingQueue.png)
 
-**Producer:** Generates and sends messages to the messaging system.
-**Message Broker:** Manages message routing, storage, and delivery.
-**Queue:** Temporarily stores messages until they are consumed.
-**Consumer:** Retrieves and processes messages.
-**Acknowledgement (ACK):** Confirms successful message processing.
-**Dead Letter Queue (DLQ):** Stores messages that repeatedly fail processing.
+- **Producer:** Generates and sends messages to the messaging system.
+- **Message Broker:** Manages message routing, storage, and delivery.
+- **Queue:** Temporarily stores messages until they are consumed.
+- **Consumer:** Retrieves and processes messages.
+- **Acknowledgement (ACK):** Confirms successful message processing.
+- **Dead Letter Queue (DLQ):** Stores messages that repeatedly fail processing.
 
 ## Why are Messaging Queues used
 
